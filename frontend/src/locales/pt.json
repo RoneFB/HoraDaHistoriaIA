@@ -1,0 +1,30 @@
+{
+    "app": {
+        "title": "Hora da História IA",
+        "subtitle": "✨ Crie Magia",
+        "footer": "Desenvolvido com OpenAI & Gemini"
+    },
+    "form": {
+        "title": "Nova História",
+        "quickThemes": "Temas Rápidos",
+        "age": "Idade",
+        "service": "Serviço",
+        "theme": "Tema",
+        "themePlaceholder": "ex: Piratas Espaciais, Um coelho mágico...",
+        "btnGenerate": "Gerar História",
+        "btnGenerating": "Criando Magia...",
+        "ageOptions": {
+            "3-5": "3-5 anos",
+            "6-8": "6-8 anos",
+            "9-12": "9-12 anos"
+        }
+    },
+    "themes": {
+        "Space Adventure": "Aventura Espacial",
+        "Magical Forest": "Floresta Mágica",
+        "Dinosaurs": "Dinossauros",
+        "Superheroes": "Super Heróis",
+        "Underwater World": "Mundo Submarino",
+        "Fairy Tale": "Conto de Fadas"
+    }
+}

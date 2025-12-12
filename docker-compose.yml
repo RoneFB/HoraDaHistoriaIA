@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      # Create a .env file in ./backend locally, or uncomment and set keys here (not recommended for commit)
+      # - OPENAI_API_KEY=...
+      # - GEMINI_API_KEY=...
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend

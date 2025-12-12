@@ -1,0 +1,30 @@
+{
+    "app": {
+        "title": "StoryTime AI",
+        "subtitle": "✨ Create Magic",
+        "footer": "Powered by OpenAI & Gemini"
+    },
+    "form": {
+        "title": "New Story",
+        "quickThemes": "Quick Themes",
+        "age": "Age",
+        "service": "Service",
+        "theme": "Theme",
+        "themePlaceholder": "e.g. Space Pirates, A magic rabbit...",
+        "btnGenerate": "Generate Story",
+        "btnGenerating": "Generating Magic...",
+        "ageOptions": {
+            "3-5": "3-5 years",
+            "6-8": "6-8 years",
+            "9-12": "9-12 years"
+        }
+    },
+    "themes": {
+        "Space Adventure": "Space Adventure",
+        "Magical Forest": "Magical Forest",
+        "Dinosaurs": "Dinosaurs",
+        "Superheroes": "Superheroes",
+        "Underwater World": "Underwater World",
+        "Fairy Tale": "Fairy Tale"
+    }
+}
